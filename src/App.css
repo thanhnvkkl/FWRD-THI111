@@ -1,0 +1,31 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.App {
+  display: flex;
+  align-items: center;
+  color: #868e96;
+}
+.App .list-group .start {
+  color: #71777e;
+}
+.App .list-group .end {
+   background-color: #868e96;
+   padding: 0 4px;
+    font-size: 12px;
+}
+.App .input-group-text {
+  color: #71777e;
+}
+.App .form-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+.App .btn-submit {
+  background-color: #198754;
+  color: #fff;
+  font-size: 14px;
+}
